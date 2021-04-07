@@ -1,10 +1,8 @@
 # EC500_P2P_Chat
 
-| Collaborators |
-| ------------- |
-| Ben Leone     |
-| Dongfang Li   |
-| Haoran Zheng  |
+| Collaborators               |
+| --------------------------- |
+| Ben Leone (bleone90@bu.edu) |
 
 ## MVP
 
