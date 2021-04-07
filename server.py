@@ -11,9 +11,10 @@ class Server(DatagramProtocol):
     def datagramReceived(self, datagram, addr):
         datagram = datagram.decode("utf-8")
         if datagram == "ready":
+            addresses = "\n".join([str(x) for x in self.clients])
+
+            self.transport.write(addresses.encode("utf-8"), addr)
             self.clients.add(addr)
-            self.transport.write(
-                "\n".join([str(x) for x in self.clients]), addr)
 
 
 if __name__ == "__main__":
