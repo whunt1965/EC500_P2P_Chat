@@ -21,7 +21,7 @@ class Client(DatagramProtocol):
         datagram = datagram.decode("utf-8")
         if addr == self.server:
             print("Choose a client:\n", datagram)
-            self.address = input("Write host:"), int(input("Write port:"))
+            self.address = input("Write host: "), int(input("Write port: "))
             reactor.callInThread(self.sendMessage)
         else:
             print(addr, ":", datagram)

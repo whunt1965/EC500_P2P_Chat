@@ -19,6 +19,9 @@
 - `python3 -m venv venv`
 - `source venv/bin/activate`
 - `pip3 install -r requirements.txt`
+- `python3 server.py`
+- Run `python3 client.py` in two seperate terminal windows
+- Enter the host IP and port number of other client and chat!
 
 ## Modules
 
