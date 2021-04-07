@@ -13,6 +13,13 @@
 - For users who are offline, sending a message stores the message locally to be sent when other user comes online.
 - All passwords and messages are hashed to be decrypted by other user.
 
+## Setup
+
+- Clone and `cd` into repository
+- `python3 -m venv venv`
+- `source venv/bin/activate`
+- `pip3 install -r requirements.txt`
+
 ## Modules
 
 - User Interface
